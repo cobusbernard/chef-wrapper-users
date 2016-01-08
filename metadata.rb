@@ -4,6 +4,6 @@ maintainer_email 'me@cobus.io'
 license          'Apache 2.0'
 description      'Installs/Configures chef-wrapper-users'
 long_description 'Installs/Configures chef-wrapper-users'
-version          '0.1.0'
+version          '0.1.1'
 
-depends "users", '~> 1.8.2'
+depends 'users', '~> 1.8.2'

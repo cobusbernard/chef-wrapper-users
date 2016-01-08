@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe "[users::sysadmins]"
+include_recipe "users::sysadmins"
 
 users_manage "sudo" do
   group_id 27
